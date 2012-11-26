@@ -20,6 +20,10 @@ a:hover {
   text-decoration: underline;
 }
 
+blockquote {
+  font-style: italic;
+}
+
 #main {
   width: 880px;
   margin: 0 auto;
@@ -54,7 +58,7 @@ header {
 
 header h1 {
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 header a {
