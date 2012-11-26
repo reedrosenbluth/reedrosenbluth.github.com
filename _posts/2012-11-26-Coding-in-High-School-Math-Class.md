@@ -3,7 +3,7 @@ layout : post
 category : code
 ---
 
-While calculus is far and away the most interesting math class I have ever taken, there are certain parts of the curriculum that make me want to cry, such as calculating Riemann Sums. Now, don't get me wrong, I'm not suggesting that learning about Riemann Sums is unnecessary. Quite the opposite actually. I think learning about Riemann Sums is very important. Yet the fact that I had to calculate so many of these sums by hand almost made me forget how cool they are. 
+While calculus is far and away the most interesting math class I have ever taken, there are certain parts of the AP curriculum that get me very frustrated, such as calculating Riemann Sums. Now, don't get me wrong, I'm not suggesting that learning about Riemann Sums is unnecessary. Quite the opposite actually. I think learning about Riemann Sums is very important. Yet the fact that I had to calculate so many of these sums by hand almost made me forget how cool they are. 
 
 For those of you who have either forgotten or haven't taken high school calculus yet:
 
