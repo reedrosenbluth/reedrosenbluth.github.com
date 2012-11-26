@@ -44,6 +44,15 @@ blockquote {
   margin-bottom: 70px;
 }
 
+.post-title {
+  color: black;
+}
+
+.post-title:hover {
+  color: #464646;
+  text-decoration: underline;
+}
+
 .myname {
   font-size: 3em;
   font-weight: lighter;

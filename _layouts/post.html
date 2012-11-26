@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset=utf-8 />
-  <title>  First Post |  Reed Rosenbluth </title>
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Reed Rosenbluth </title>
   <link rel="stylesheet" href="/css/style.css" />
   <link href="/css/github.css" rel="stylesheet" type="text/css">
   <script type="text/javascript" src="//use.typekit.net/sfl3uaw.js"></script>
@@ -22,16 +22,10 @@
     </header>
     <div class="content">
       <div class="post-header">
-        <h1 class="post-title">First Post</h1>
-        25 Nov 2012
+        <h1 class="post-title">{{ page.title }}</h1>
+        {{ page.date | date_to_string }}
       </div>
-      <p>Hey there. Welcome to my new blog.</p>
-
-<p>My name is Reed Rosenbluth and I am a 17 year old student from Long Island, New York interested in things like software development, the internet, education, and playing the guitar. I like to program iPhone apps and also love coding in Python. I just finished up an internship at Hunch/eBay in NYC this past summer, and am currently trying to get into college.</p>
-
-<p>Hope you enjoy the blog.</p>
-
-<p>-Reed</p>
+      {{ content }}
     </div>
     <footer>
       <p>Reed Rosenbluth 2012 | All Rights Reserved. </p>
