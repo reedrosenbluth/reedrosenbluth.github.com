@@ -76,3 +76,7 @@ def main():
 
 if __name__ == "__main__":
     main()</code></pre>
+
+<br>
+And finally, an example of some output from matplotlib:
+<img src="/images/riemann.png" style="width: 700px; display: block; margin-left: auto; margin-right: auto;" />
