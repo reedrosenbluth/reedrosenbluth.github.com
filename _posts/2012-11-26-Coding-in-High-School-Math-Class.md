@@ -16,7 +16,7 @@ So one evening as I stared at a large problem set full of Riemann Sums, I decide
 
 To get started, install [matplotlib](http://matplotlib.org/) and [numpy](http://numpy.scipy.org/).
 
-I use numpy's *arange* routine to create a range of numbers from a to b, with an interval of .02. Then, we set y equal to the set of outputs from our function f.
+First use numpy's *arange* routine to create a range of numbers from a to b, with an interval of .02. Then, we set y equal to the set of outputs from our function f.
 
 <pre><code data-language="python">
 numRange = np.arange(a, b, .02)
