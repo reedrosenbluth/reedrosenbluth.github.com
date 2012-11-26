@@ -6,7 +6,8 @@
  */
 pre {
     border: 1px solid #ccc;
-    word-wrap: break-word;
+    /*word-wrap: break-word;*/
+    overflow: scroll;
     padding: 6px 10px;
     padding-bottom: 24px;
     line-height: 19px;
