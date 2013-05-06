@@ -14,8 +14,8 @@
       <a href="http://reedr95.github.com"><h1 class="myname"> Reed Rosenbluth </h1></a>
       <nav role="navigation">
         <ul>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/about">About</a></li>
+          <!-- <li><a href="/contact">Contact</a></li>
+          <li><a href="/about">About</a></li> -->
           <li><a href="http://reedrosenbluth.com">Landing Page</a></li>
         </ul>
       </nav>
@@ -39,7 +39,7 @@
 
 <p>To get started, install <a href='http://matplotlib.org/'>matplotlib</a> and <a href='http://numpy.scipy.org/'>numpy</a>.</p>
 
-<p>First use numpy&#8217;s <em>arange</em> routine to create a range of numbers from a to b, with an interval of .02. Then, we set y equal to the set of outputs from our function f.</p>
+<p>First use numpy&#8217;s <em>arange</em> routine to create a list of numbers from a to b, with an interval of .02. Then, we set y equal to the set of outputs from our function f, which we use to plot our function.</p>
 <pre><code data-language='python'>
 numRange = np.arange(a, b, .02)
 y = f(numRange)
@@ -88,7 +88,7 @@ def main():
 
 if __name__ == "__main__":
     main()</code></pre><br />
-<p>And finally, an example of some output from matplotlib: <img src='/images/riemann.png' style='width: 700px; display: block; margin-left: auto; margin-right: auto;' /></p>
+<p>And finally, an example of some output from matplotlib: <img style='width: 700px; display: block; margin-left: auto; margin-right: auto;' src='/images/riemann.png' /></p>
     </div>
     <footer>
       <p>Reed Rosenbluth 2012 | All Rights Reserved. </p>
